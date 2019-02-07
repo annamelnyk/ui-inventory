@@ -98,9 +98,9 @@ class Instances extends React.Component {
             */
             const resourceData = args[2];
             const sortMap = {
-              Title: 'title',
+              title: 'title',
               publishers: 'publication',
-              Contributors: 'contributors',
+              contributors: 'contributors',
             };
 
             const index = resourceData.query.qindex ? resourceData.query.qindex : 'all';
